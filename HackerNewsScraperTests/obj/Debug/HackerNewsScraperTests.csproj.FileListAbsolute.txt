@@ -1,0 +1,44 @@
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HackerNewsScraperTests.dll
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HackerNewsScraperTests.pdb
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HackerNewsScraper.exe
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HtmlAgilityPack.dll
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HackerNewsScraper.pdb
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HackerNewsScraper.exe.config
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HtmlAgilityPack.pdb
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HtmlAgilityPack.xml
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\obj\Debug\HackerNewsScraperTests.csprojAssemblyReference.cache
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\obj\Debug\HackerNewsScraperTests.csproj.CoreCompileInputs.cache
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\obj\Debug\HackerNewsScraperTests.csproj.CopyComplete
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\obj\Debug\HackerNewsScraperTests.dll
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraperTests\obj\Debug\HackerNewsScraperTests.pdb
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HackerNewsScraperTests.dll
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HackerNewsScraperTests.pdb
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HackerNewsScraper.exe
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HtmlAgilityPack.dll
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HackerNewsScraper.pdb
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HackerNewsScraper.exe.config
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HtmlAgilityPack.pdb
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\HtmlAgilityPack.xml
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\obj\Debug\HackerNewsScraperTests.csprojAssemblyReference.cache
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\obj\Debug\HackerNewsScraperTests.csproj.CoreCompileInputs.cache
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\obj\Debug\HackerNewsScraperTests.csproj.CopyComplete
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\obj\Debug\HackerNewsScraperTests.dll
+D:\Projects\HackerNewsScraper\HackerNewsScraperTests\obj\Debug\HackerNewsScraperTests.pdb

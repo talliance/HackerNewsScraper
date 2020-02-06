@@ -1,0 +1,11 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  hackernewsscraper:
+    build:
+      context: D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper
+      dockerfile: Dockerfile
+    image: hackernewsscraper
+version: '3.4'

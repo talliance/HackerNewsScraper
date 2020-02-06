@@ -1,0 +1,33 @@
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\bin\Debug\HackerNewsScraper.exe.config
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\bin\Debug\HackerNewsScraper.exe
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\bin\Debug\HackerNewsScraper.pdb
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\bin\Debug\log4net.dll
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\bin\Debug\log4net.xml
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\obj\Debug\HackerNewsScraper.csprojAssemblyReference.cache
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\obj\Debug\HackerNewsScraper.csproj.CoreCompileInputs.cache
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\obj\Debug\HackerNewsScraper.csproj.CopyComplete
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\obj\Debug\HackerNewsScraper.exe
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\obj\Debug\HackerNewsScraper.pdb
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\bin\Debug\HtmlAgilityPack.dll
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\bin\Debug\HtmlAgilityPack.pdb
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\bin\Debug\HtmlAgilityPack.xml
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\bin\Debug\Newtonsoft.Json.Schema.dll
+D:\Projects\TrueLayer Hacker News Scraper\HackerNewsScraper\HackerNewsScraper\bin\Debug\Newtonsoft.Json.Schema.xml
+D:\Projects\HackerNewsScraper\HackerNewsScraper\bin\Debug\HackerNewsScraper.exe.config
+D:\Projects\HackerNewsScraper\HackerNewsScraper\bin\Debug\HackerNewsScraper.exe
+D:\Projects\HackerNewsScraper\HackerNewsScraper\bin\Debug\HackerNewsScraper.pdb
+D:\Projects\HackerNewsScraper\HackerNewsScraper\bin\Debug\HtmlAgilityPack.dll
+D:\Projects\HackerNewsScraper\HackerNewsScraper\bin\Debug\log4net.dll
+D:\Projects\HackerNewsScraper\HackerNewsScraper\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\HackerNewsScraper\HackerNewsScraper\bin\Debug\Newtonsoft.Json.Schema.dll
+D:\Projects\HackerNewsScraper\HackerNewsScraper\bin\Debug\HtmlAgilityPack.pdb
+D:\Projects\HackerNewsScraper\HackerNewsScraper\bin\Debug\HtmlAgilityPack.xml
+D:\Projects\HackerNewsScraper\HackerNewsScraper\bin\Debug\log4net.xml
+D:\Projects\HackerNewsScraper\HackerNewsScraper\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\HackerNewsScraper\HackerNewsScraper\bin\Debug\Newtonsoft.Json.Schema.xml
+D:\Projects\HackerNewsScraper\HackerNewsScraper\obj\Debug\HackerNewsScraper.csproj.CoreCompileInputs.cache
+D:\Projects\HackerNewsScraper\HackerNewsScraper\obj\Debug\HackerNewsScraper.csproj.CopyComplete
+D:\Projects\HackerNewsScraper\HackerNewsScraper\obj\Debug\HackerNewsScraper.exe
+D:\Projects\HackerNewsScraper\HackerNewsScraper\obj\Debug\HackerNewsScraper.pdb
