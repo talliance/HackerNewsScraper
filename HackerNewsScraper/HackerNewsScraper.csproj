@@ -51,14 +51,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PostResponse.cs" />
+    <Compile Include="Interfaces\ILauncher.cs" />
+    <Compile Include="Interfaces\IScraper.cs" />
+    <Compile Include="Models\PostResponseModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Scraper.cs" />
+    <Compile Include="Scraper\Launcher.cs" />
+    <Compile Include="Scraper\Scraper.cs" />
+    <Compile Include="Scraper\Utility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

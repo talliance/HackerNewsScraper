@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HackerNewsScraper
+namespace HackerNewsScraper.Models
 {
-    public class PostResponse
+    public class PostResponseModel
     {
         public string title { get; set; }
         public string uri { get; set; }

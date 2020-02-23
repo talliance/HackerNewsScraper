@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using Newtonsoft.Json;
+using HackerNewsScraper.Interfaces;
+using HackerNewsScraper.Models;
 
 namespace HackerNewsScraper
 {
@@ -26,46 +28,33 @@ namespace HackerNewsScraper
                 //check that the number of requested posts meets the requirements of being <= 100
                 if(numberOfRequestedPosts <= 100)
                 {
-                    //Calculate the number of pages to scrape
-                    int postsPerPage = 30;
-                    int numberOfPagesToScrape = 1;
+                    //initialize the scraper
+                    ILauncher start = new Scraper.Launcher();
+                    start.initialize();
 
-                    if (numberOfRequestedPosts > postsPerPage)
-                    {
-                        //make sure only the smallest whole number is returned
-                        var pages = (int)Math.Ceiling((double)numberOfRequestedPosts / postsPerPage);
-                        numberOfPagesToScrape = (int)pages;
-                    }
-
-                    List<PostResponse> postsList = new List<PostResponse>();
+                    List<PostResponseModel> postsList = new List<PostResponseModel>();
 
                     try
                     {
-                        //although the uri is stored in the app.config, this scraper is geared towards the HackerNews website only
-                        //it's stored in the config as a standard practice
-                        string uri = ConfigurationManager.AppSettings["uri"];
+                        //get posts and populate the posts list
+                        postsList = start.GetPosts(numberOfRequestedPosts);
 
-                        //the path to the html table
-                        string xpathPostsNode = "//table[@class=\"itemlist\"][1]/tr";
+                        // formating the output
+                        string JsonFormattedPostsList = JsonConvert.SerializeObject(postsList, Formatting.Indented);
 
-                        //intialize a new instance of the scraper class
-                        Scraper scraper = new Scraper();
-
-                        //loop through the number of requested pages to build the posts list
-                        for (int page = 1; page <= numberOfPagesToScrape; page++)
-                            postsList = postsList.Concat(scraper.GetPosts(uri, page, xpathPostsNode, numberOfRequestedPosts - postsList.Count())).ToList();
+                        // show the new json list in console
+                        Console.WriteLine(JsonFormattedPostsList);
+                    }
+                    catch(JsonException jEx)
+                    {
+                        Console.WriteLine("Unable to perform JSON serialization: {0}", jEx.Message);
+                        throw new JsonException();
                     }
                     catch (Exception ex)
                     {
                         Console.WriteLine("There was an issue during the scraping: {0}", ex.Message);
                         Environment.Exit(2);
                     }
-
-                    // formating the output
-                    string JsonFormattedPostsList = JsonConvert.SerializeObject(postsList, Formatting.Indented);
-
-                    // show the new json list in console
-                    Console.WriteLine(JsonFormattedPostsList);
                 }
                 else
                 {

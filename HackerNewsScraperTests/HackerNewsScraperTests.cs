@@ -1,8 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using HackerNewsScraper;
 using System.Collections.Generic;
-using System.Linq;
+using HackerNewsScraper.Interfaces;
+using HackerNewsScraper.Models;
+using HackerNewsScraper.Scraper;
 
 namespace HackerNewsScraperTests
 {
@@ -11,51 +12,44 @@ namespace HackerNewsScraperTests
     {
         int postsPerPage = 30;
         int numberOfPagesToScrape = 1;
-        string uri = "https://news.ycombinator.com/";
-        string xpathPostsNode = "//table[@class=\"itemlist\"][1]/tr";
 
         [TestMethod]
         public void OnePageScrapeTest()
         {
             int numberOfRequestedPosts = 1;
-            Scraper scraper = new Scraper();
 
-            List<PostResponse> postsList = new List<PostResponse>();
+            ILauncher start = new FakeLauncher();
+            start.initialize();
 
-            for (int page = 1; page <= numberOfPagesToScrape; page++)
-                postsList = postsList.Concat(scraper.GetPosts(uri, page, xpathPostsNode, numberOfRequestedPosts - postsList.Count())).ToList();
-
-            Assert.AreEqual(1, postsList.Count);
+            Assert.AreEqual(start.GetPosts(numberOfRequestedPosts).Count, numberOfRequestedPosts);
         }
 
         [TestMethod]
         public void TwoPageScrapeTest()
         {
             int numberOfRequestedPosts = 40;
-            Scraper scraper = new Scraper();
 
             numberOfPagesToScrape = calculatePages(numberOfRequestedPosts);
-            List<PostResponse> postsList = new List<PostResponse>();
+            List<PostResponseModel> postsList = new List<PostResponseModel>();
 
-            for (int page = 1; page <= numberOfPagesToScrape; page++)
-                postsList = postsList.Concat(scraper.GetPosts(uri, page, xpathPostsNode, numberOfRequestedPosts - postsList.Count())).ToList();
+            ILauncher start = new FakeLauncher();
+            start.initialize();
 
-            Assert.AreEqual(40, postsList.Count);
+            Assert.AreEqual(start.GetPosts(numberOfRequestedPosts).Count, numberOfRequestedPosts);
         }
 
         [TestMethod]
         public void ThreePageScrapeTest()
         {
             int numberOfRequestedPosts = 70;
-            Scraper scraper = new Scraper();
 
             numberOfPagesToScrape = calculatePages(numberOfRequestedPosts);
-            List<PostResponse> postsList = new List<PostResponse>();
+            List<PostResponseModel> postsList = new List<PostResponseModel>();
 
-            for (int page = 1; page <= numberOfPagesToScrape; page++)
-                postsList = postsList.Concat(scraper.GetPosts(uri, page, xpathPostsNode, numberOfRequestedPosts - postsList.Count())).ToList();
+            ILauncher start = new FakeLauncher();
+            start.initialize();
 
-            Assert.AreEqual(70, postsList.Count);
+            Assert.AreEqual(start.GetPosts(numberOfRequestedPosts).Count, numberOfRequestedPosts);
         }
 
         public int calculatePages(int numberOfRequestedPosts)
@@ -70,6 +64,22 @@ namespace HackerNewsScraperTests
             }
 
             return numberOfPagesToScrape;
+        }
+
+        public class FakeLauncher : ILauncher
+        {
+            IScraper _scraper;
+            string _xpathPostsNode = "//table[@class=\"itemlist\"][1]/tr";
+
+            public void initialize()
+            {
+                _scraper = new Scraper("https://news.ycombinator.com/news", _xpathPostsNode);
+            }
+
+            public List<PostResponseModel> GetPosts(int numberOfRequestedPosts)
+            {
+                return _scraper.parse(numberOfRequestedPosts);
+            }
         }
     }
 }
